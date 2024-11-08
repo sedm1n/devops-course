@@ -1,0 +1,1155 @@
+Sep 21 08:11:38 localhost root[36680]: os-prober: debug: running /usr/libexec/os-probes/mounted/80minix on mounted /dev/vda1
+Sep 21 08:11:38 localhost root[36680]: os-prober: debug: running /usr/libexec/os-probes/mounted/83haiku on mounted /dev/vda1
+Sep 21 08:11:38 localhost root[36680]: 83haiku: debug: /dev/vda1 is not a BeFS partition: exiting
+Sep 21 08:11:38 localhost root[36680]: os-prober: debug: running /usr/libexec/os-probes/mounted/90linux-distro on mounted /dev/vda1
+Sep 21 08:11:38 localhost root[36680]: os-prober: debug: running /usr/libexec/os-probes/mounted/90solaris on mounted /dev/vda1
+Nov  7 18:12:55 krasnov-teach kernel: Command line: BOOT_IMAGE=(hd0,gpt2)/boot/vmlinuz-5.4.17-2136.310.7.1.el8uek.x86_64 root=UUID=a8d18b4e-1ac0-45e3-ba22-6e3a05840f20 ro console=tty0 console=ttyS0,115200n8 rootflags=discard ipv6.disable=1
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: xstate_offset[5]: 1088, xstate_sizes[5]:   64
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: xstate_offset[6]: 1152, xstate_sizes[6]:  512
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: xstate_offset[7]: 1664, xstate_sizes[7]: 1024
+Nov  7 18:12:55 krasnov-teach kernel: x86/fpu: Enabled xstate features 0xe7, context size is 2688 bytes, using 'standard' format.
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-provided physical RAM map:
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x0000000000100000-0x0000000058f4ffff] usable
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x0000000058f50000-0x000000005c8bbfff] reserved
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000005c8bc000-0x000000007c739fff] usable
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007c73a000-0x000000007e521fff] reserved
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007e522000-0x000000007e9a0fff] usable
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007e9a1000-0x000000007e9a2fff] reserved
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007e9a3000-0x000000007ea73fff] usable
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007ea74000-0x000000007ea75fff] reserved
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007ea76000-0x000000007ea8efff] usable
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007ea8f000-0x000000007ea90fff] ACPI data
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007ea91000-0x000000007eb1afff] reserved
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007eb1b000-0x000000007fb9afff] usable
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007fb9b000-0x000000007fbf2fff] reserved
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007fbf3000-0x000000007fbfafff] ACPI data
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007fbfb000-0x000000007fbfefff] ACPI NVS
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007fbff000-0x000000007ff7bfff] usable
+Nov  7 18:12:55 krasnov-teach kernel: BIOS-e820: [mem 0x000000007ff7c000-0x000000007fffffff] reserved
+Nov  7 18:12:55 krasnov-teach kernel: NX (Execute Disable) protection: active
+Nov  7 18:12:55 krasnov-teach kernel: efi: EFI v2.70 by BHYVE
+Nov  7 18:12:55 krasnov-teach kernel: efi:  SMBIOS=0x7fbcc000  ACPI=0x7fbfa000  ACPI 2.0=0x7fbfa014  MEMATTR=0x7f388018 
+Nov  7 18:12:55 krasnov-teach kernel: SMBIOS 2.8 present.
+Nov  7 18:12:55 krasnov-teach kernel: DMI: vStack SmartDC vStack bhyve/BHYVE, BIOS 13.0 11/10/2020
+Nov  7 18:12:55 krasnov-teach kernel: tsc: Detected 3000.000 MHz processor
+Nov  7 18:12:55 krasnov-teach kernel: tsc: Detected 2992.853 MHz TSC
+Nov  7 18:12:55 krasnov-teach kernel: last_pfn = 0x7ff7c max_arch_pfn = 0x400000000
+Nov  7 18:12:55 krasnov-teach kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Nov  7 18:12:55 krasnov-teach kernel: found SMP MP-table at [mem 0x000f0000-0x000f000f]
+Nov  7 18:12:55 krasnov-teach kernel: check: Scanning 1 areas for low memory corruption
+Nov  7 18:12:55 krasnov-teach kernel: Using GB pages for direct mapping
+Nov  7 18:12:55 krasnov-teach kernel: Secure boot disabled
+Nov  7 18:12:55 krasnov-teach kernel: RAMDISK: [mem 0x7c73a000-0x7e521fff]
+Nov  7 18:12:55 krasnov-teach kernel: Allocated new RAMDISK: [mem 0x7a1d6000-0x7bfbd247]
+Nov  7 18:12:55 krasnov-teach kernel: Move RAMDISK from [mem 0x7c73a000-0x7e521247] to [mem 0x7a1d6000-0x7bfbd247]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Early table checksum verification disabled
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: RSDP 0x000000007FBFA014 000024 (v02 BHYVE )
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: XSDT 0x000000007FBF90E8 000054 (v01 BHYVE  BVFACP   00000001      01000013)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: FACP 0x000000007FBF8000 0000F4 (v04 BHYVE  BVFACP   00000001 BHYV 00000001)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: DSDT 0x000000007EA8F000 00191A (v02 BHYVE  BVDSDT   00000001 INTL 20201113)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: FACS 0x000000007FBFE000 000040
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: HPET 0x000000007FBF7000 000038 (v01 BHYVE  BVHPET   00000001 BHYV 00000001)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: APIC 0x000000007FBF6000 00004A (v01 BHYVE  BVMADT   00000001 BHYV 00000001)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: MCFG 0x000000007FBF5000 00003C (v01 BHYVE  BVMCFG   00000001 BHYV 00000001)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: SPCR 0x000000007FBF4000 000050 (v02 BHYVE  BVSPCR   00000001 BHYV 00000001)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: BGRT 0x000000007FBF3000 000038 (v01 INTEL  EDK2     00000002      01000013)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Reserving FACP table memory at [mem 0x7fbf8000-0x7fbf80f3]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Reserving DSDT table memory at [mem 0x7ea8f000-0x7ea90919]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Reserving FACS table memory at [mem 0x7fbfe000-0x7fbfe03f]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Reserving HPET table memory at [mem 0x7fbf7000-0x7fbf7037]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Reserving APIC table memory at [mem 0x7fbf6000-0x7fbf6049]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Reserving MCFG table memory at [mem 0x7fbf5000-0x7fbf503b]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Reserving SPCR table memory at [mem 0x7fbf4000-0x7fbf404f]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Reserving BGRT table memory at [mem 0x7fbf3000-0x7fbf3037]
+Nov  7 18:12:55 krasnov-teach kernel: Setting APIC routing to physical flat.
+Nov  7 18:12:55 krasnov-teach kernel: No NUMA configuration found
+Nov  7 18:12:55 krasnov-teach kernel: Faking a node at [mem 0x0000000000000000-0x000000007ff7bfff]
+Nov  7 18:12:55 krasnov-teach kernel: NODE_DATA(0) allocated [mem 0x7ff0f000-0x7ff39fff]
+Nov  7 18:12:55 krasnov-teach kernel: Zone ranges:
+Nov  7 18:12:55 krasnov-teach kernel:  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Nov  7 18:12:55 krasnov-teach kernel:  DMA32    [mem 0x0000000001000000-0x000000007ff7bfff]
+Nov  7 18:12:55 krasnov-teach kernel:  Normal   empty
+Nov  7 18:12:55 krasnov-teach kernel:  Device   empty
+Nov  7 18:12:55 krasnov-teach kernel: Movable zone start for each node
+Nov  7 18:12:55 krasnov-teach kernel: Early memory node ranges
+Nov  7 18:12:55 krasnov-teach kernel:  node   0: [mem 0x0000000000001000-0x000000000009ffff]
+Nov  7 18:12:55 krasnov-teach kernel:  node   0: [mem 0x0000000000100000-0x0000000058f4ffff]
+Nov  7 18:12:55 krasnov-teach kernel:  node   0: [mem 0x000000005c8bc000-0x000000007c739fff]
+Nov  7 18:12:55 krasnov-teach kernel:  node   0: [mem 0x000000007e522000-0x000000007e9a0fff]
+Nov  7 18:12:55 krasnov-teach kernel:  node   0: [mem 0x000000007e9a3000-0x000000007ea73fff]
+Nov  7 18:12:55 krasnov-teach kernel:  node   0: [mem 0x000000007ea76000-0x000000007ea8efff]
+Nov  7 18:12:55 krasnov-teach kernel:  node   0: [mem 0x000000007eb1b000-0x000000007fb9afff]
+Nov  7 18:12:55 krasnov-teach kernel:  node   0: [mem 0x000000007fbff000-0x000000007ff7bfff]
+Nov  7 18:12:55 krasnov-teach kernel: Zeroed struct page in unavailable ranges: 22829 pages
+Nov  7 18:12:55 krasnov-teach kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000007ff7bfff]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PM-Timer IO Port: 0x408
+Nov  7 18:12:55 krasnov-teach kernel: IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-31
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Nov  7 18:12:55 krasnov-teach kernel: Using ACPI (MADT) for SMP configuration information
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: HPET id: 0xa400 base: 0xfed00000
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: SPCR: console: uart,io,0x3f8,115200
+Nov  7 18:12:55 krasnov-teach kernel: smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x58f50000-0x5c8bbfff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7c73a000-0x7e521fff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7e9a1000-0x7e9a2fff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7ea74000-0x7ea75fff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7ea8f000-0x7ea90fff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7ea91000-0x7eb1afff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7eb6b000-0x7eb7efff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7fb9b000-0x7fbf2fff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7fbf3000-0x7fbfafff]
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registered nosave memory: [mem 0x7fbfb000-0x7fbfefff]
+Nov  7 18:12:55 krasnov-teach kernel: [mem 0x80000000-0xffffffff] available for PCI devices
+Nov  7 18:12:55 krasnov-teach kernel: Booting paravirtualized kernel on bare hardware
+Nov  7 18:12:55 krasnov-teach kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Nov  7 18:12:55 krasnov-teach kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Nov  7 18:12:55 krasnov-teach kernel: percpu: Embedded 60 pages/cpu s208896 r8192 d28672 u2097152
+Nov  7 18:12:55 krasnov-teach kernel: Built 1 zonelists, mobility grouping on.  Total pages: 491230
+Nov  7 18:12:55 krasnov-teach kernel: Policy zone: DMA32
+Nov  7 18:12:55 krasnov-teach kernel: Kernel command line: BOOT_IMAGE=(hd0,gpt2)/boot/vmlinuz-5.4.17-2136.310.7.1.el8uek.x86_64 root=UUID=a8d18b4e-1ac0-45e3-ba22-6e3a05840f20 ro console=tty0 console=ttyS0,115200n8 rootflags=discard ipv6.disable=1
+Nov  7 18:12:55 krasnov-teach kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: mem auto-init: stack:off, heap alloc:off, heap free:off
+Nov  7 18:12:55 krasnov-teach kernel: Memory: 202348K/2005836K available (14340K kernel code, 2244K rwdata, 10128K rodata, 3020K init, 15088K bss, 139396K reserved, 0K cma-reserved)
+Nov  7 18:12:55 krasnov-teach kernel: random: get_random_u64 called from __kmem_cache_create+0x33/0x47f with crng_init=0
+Nov  7 18:12:55 krasnov-teach kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Nov  7 18:12:55 krasnov-teach kernel: Kernel/User page tables isolation: enabled
+Nov  7 18:12:55 krasnov-teach kernel: ftrace: allocating 42147 entries in 165 pages
+Nov  7 18:12:55 krasnov-teach kernel: rcu: Hierarchical RCU implementation.
+Nov  7 18:12:55 krasnov-teach kernel: rcu: #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Nov  7 18:12:55 krasnov-teach kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+Nov  7 18:12:55 krasnov-teach kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Nov  7 18:12:55 krasnov-teach kernel: NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+Nov  7 18:12:55 krasnov-teach kernel: Console: colour dummy device 80x25
+Nov  7 18:12:55 krasnov-teach kernel: printk: console [tty0] enabled
+Nov  7 18:12:55 krasnov-teach kernel: printk: console [ttyS0] enabled
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Core revision 20190816
+Nov  7 18:12:55 krasnov-teach kernel: clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 113919999973 ns
+Nov  7 18:12:55 krasnov-teach kernel: APIC: Switch to symmetric I/O mode setup
+Nov  7 18:12:55 krasnov-teach kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2b23e604461, max_idle_ns: 440795297641 ns
+Nov  7 18:12:55 krasnov-teach kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 5985.70 BogoMIPS (lpj=2992853)
+Nov  7 18:12:55 krasnov-teach kernel: pid_max: default: 32768 minimum: 301
+Nov  7 18:12:55 krasnov-teach kernel: LSM: Security Framework initializing
+Nov  7 18:12:55 krasnov-teach kernel: Yama: becoming mindful.
+Nov  7 18:12:55 krasnov-teach kernel: SELinux:  Initializing.
+Nov  7 18:12:55 krasnov-teach kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Nov  7 18:12:55 krasnov-teach kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Nov  7 18:12:55 krasnov-teach kernel: FEATURE SPEC_CTRL Not Present
+Nov  7 18:12:55 krasnov-teach kernel: FEATURE IBPB Not Present
+Nov  7 18:12:55 krasnov-teach kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Nov  7 18:12:55 krasnov-teach kernel: Spectre V2 : Options: retpoline
+Nov  7 18:12:55 krasnov-teach kernel: Spectre V2 : Mitigation: Retpolines
+Nov  7 18:12:55 krasnov-teach kernel: Spectre V2 : Spectre v2 mitigation: Filling RSB on underflow conditions
+Nov  7 18:12:55 krasnov-teach kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Nov  7 18:12:55 krasnov-teach kernel: RETBleed: WARNING: Spectre v2 mitigation leaves CPU vulnerable to RETBleed attacks, data leaks possible!
+Nov  7 18:12:55 krasnov-teach kernel: RETBleed: Vulnerable
+Nov  7 18:12:55 krasnov-teach kernel: Speculative Store Bypass: Vulnerable
+Nov  7 18:12:55 krasnov-teach kernel: MDS: Mitigation: Clear CPU buffers
+Nov  7 18:12:55 krasnov-teach kernel: TAA: Mitigation: Clear CPU buffers
+Nov  7 18:12:55 krasnov-teach kernel: MMIO Stale Data: Vulnerable: Clear CPU buffers attempted, no microcode
+Nov  7 18:12:55 krasnov-teach kernel: Freeing SMP alternatives memory: 36K
+Nov  7 18:12:55 krasnov-teach kernel: smpboot: CPU0: Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz (family: 0x6, model: 0x55, stepping: 0x7)
+Nov  7 18:12:55 krasnov-teach kernel: Performance Events: unsupported p6 CPU model 85 no PMU driver, software events only.
+Nov  7 18:12:55 krasnov-teach kernel: rcu: Hierarchical SRCU implementation.
+Nov  7 18:12:55 krasnov-teach kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+Nov  7 18:12:55 krasnov-teach kernel: smp: Bringing up secondary CPUs ...
+Nov  7 18:12:55 krasnov-teach kernel: smp: Brought up 1 node, 1 CPU
+Nov  7 18:12:55 krasnov-teach kernel: smpboot: Max logical packages: 1
+Nov  7 18:12:55 krasnov-teach kernel: smpboot: Total of 1 processors activated (5985.70 BogoMIPS)
+Nov  7 18:12:55 krasnov-teach kernel: node 0 deferred pages initialised in 18ms
+Nov  7 18:12:55 krasnov-teach kernel: devtmpfs: initialized
+Nov  7 18:12:55 krasnov-teach kernel: x86/mm: Memory block size: 128MB
+Nov  7 18:12:55 krasnov-teach kernel: PM: Registering ACPI NVS region [mem 0x7fbfb000-0x7fbfefff] (16384 bytes)
+Nov  7 18:12:55 krasnov-teach kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Nov  7 18:12:55 krasnov-teach kernel: futex hash table entries: 256 (order: 2, 16384 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: pinctrl core: initialized pinctrl subsystem
+Nov  7 18:12:55 krasnov-teach kernel: NET: Registered protocol family 16
+Nov  7 18:12:55 krasnov-teach kernel: audit: initializing netlink subsys (disabled)
+Nov  7 18:12:55 krasnov-teach kernel: cpuidle: using governor menu
+Nov  7 18:12:55 krasnov-teach kernel: ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: bus type PCI registered
+Nov  7 18:12:55 krasnov-teach kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Nov  7 18:12:55 krasnov-teach kernel: PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+Nov  7 18:12:55 krasnov-teach kernel: audit: type=2000 audit(1731003173.032:1): state=initialized audit_enabled=0 res=1
+Nov  7 18:12:55 krasnov-teach kernel: PCI: not using MMCONFIG
+Nov  7 18:12:55 krasnov-teach kernel: PCI: Using configuration type 1 for base access
+Nov  7 18:12:55 krasnov-teach kernel: HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Nov  7 18:12:55 krasnov-teach kernel: HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Nov  7 18:12:55 krasnov-teach kernel: fbcon: Taking over console
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Added _OSI(Module Device)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Added _OSI(Processor Device)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Interpreter enabled
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: (supports S0 S5)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Using IOAPIC for interrupt routing
+Nov  7 18:12:55 krasnov-teach kernel: PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+Nov  7 18:12:55 krasnov-teach kernel: PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in ACPI motherboard resources
+Nov  7 18:12:55 krasnov-teach kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Root Bridge [PC00] (domain 0000 [bus 00-ff])
+Nov  7 18:12:55 krasnov-teach kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+Nov  7 18:12:55 krasnov-teach kernel: acpi PNP0A03:00: host bridge window expanded to [io  0x0000-0x0cf7]; [io  0x0000-0x0cf7 window] ignored
+Nov  7 18:12:55 krasnov-teach kernel: PCI host bridge to bus 0000:00
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: root bus resource [mem 0xc0000000-0xdfffffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: root bus resource [mem 0xf0000000-0xf07fffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: root bus resource [mem 0xd000000000-0xd0000fffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:00.0: [1275:1275] type 00 class 0x060000
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:00.0: reg 0x30: [mem 0x00000000-0x000007ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:05.0: reg 0x10: [io  0x2080-0x20bf]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:05.0: reg 0x14: [mem 0xc1000000-0xc1001fff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:05.0: reg 0x30: [mem 0x00000000-0x000007ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:0a.0: [1af4:1001] type 00 class 0x010000
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:0a.0: reg 0x10: [io  0x2000-0x207f]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:0a.0: reg 0x14: [mem 0xc1002000-0xc1003fff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:0a.0: reg 0x30: [mem 0x00000000-0x000007ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1b.0: [1af4:1002] type 00 class 0xff0000
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1b.0: reg 0x10: [io  0x20c0-0x20df]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1b.0: reg 0x14: [mem 0xc1004000-0xc1005fff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1b.0: reg 0x30: [mem 0x00000000-0x000007ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1c.0: [1af4:1005] type 00 class 0x100000
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1c.0: reg 0x10: [io  0x20e0-0x20ff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1c.0: reg 0x14: [mem 0xc1006000-0xc1007fff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1c.0: reg 0x30: [mem 0x00000000-0x000007ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: [fb5d:40fb] type 00 class 0x030000
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: reg 0x10: [mem 0xc1009000-0xc100907f]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: reg 0x14: [mem 0xc0000000-0xc0ffffff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: reg 0x30: [mem 0x00000000-0x000007ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: BAR 1: assigned to efifb
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1e.0: [8086:1e31] type 00 class 0x0c0330
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1e.0: reg 0x10: [mem 0xc1008000-0xc1008fff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1e.0: reg 0x30: [mem 0x00000000-0x000007ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1f.0: [8086:7000] type 00 class 0x060100
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1f.0: reg 0x30: [mem 0x00000000-0x000007ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 *7 9 10 11 12 14 15)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 9 *10 11 12 14 15)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 *5 6 7 9 10 11 12 14 15)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 9 10 *11 12 14 15)
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 *6 7 9 10 11 12 14 15)
+Nov  7 18:12:55 krasnov-teach kernel: iommu: Default domain type: Passthrough 
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: vgaarb: setting as boot VGA device
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: vgaarb: bridge control possible
+Nov  7 18:12:55 krasnov-teach kernel: vgaarb: loaded
+Nov  7 18:12:55 krasnov-teach kernel: SCSI subsystem initialized
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: bus type USB registered
+Nov  7 18:12:55 krasnov-teach kernel: usbcore: registered new interface driver usbfs
+Nov  7 18:12:55 krasnov-teach kernel: usbcore: registered new interface driver hub
+Nov  7 18:12:55 krasnov-teach kernel: usbcore: registered new device driver usb
+Nov  7 18:12:55 krasnov-teach kernel: pps_core: LinuxPPS API ver. 1 registered
+Nov  7 18:12:55 krasnov-teach kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov  7 18:12:55 krasnov-teach kernel: PTP clock support registered
+Nov  7 18:12:55 krasnov-teach kernel: EDAC MC: Ver: 3.0.0
+Nov  7 18:12:55 krasnov-teach kernel: Registered efivars operations
+Nov  7 18:12:55 krasnov-teach kernel: PCI: Using ACPI for IRQ routing
+Nov  7 18:12:55 krasnov-teach kernel: NetLabel: Initializing
+Nov  7 18:12:55 krasnov-teach kernel: NetLabel:  domain hash size = 128
+Nov  7 18:12:55 krasnov-teach kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Nov  7 18:12:55 krasnov-teach kernel: NetLabel:  unlabeled traffic allowed by default
+Nov  7 18:12:55 krasnov-teach kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+Nov  7 18:12:55 krasnov-teach kernel: hpet0: 8 comparators, 32-bit 16.777216 MHz counter
+Nov  7 18:12:55 krasnov-teach kernel: clocksource: Switched to clocksource tsc-early
+Nov  7 18:12:55 krasnov-teach kernel: VFS: Disk quotas dquot_6.6.0
+Nov  7 18:12:55 krasnov-teach kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Nov  7 18:12:55 krasnov-teach kernel: pnp: PnP ACPI init
+Nov  7 18:12:55 krasnov-teach kernel: system 00:02: [io  0x0220-0x0223] has been reserved
+Nov  7 18:12:55 krasnov-teach kernel: system 00:02: [io  0x0224-0x0227] has been reserved
+Nov  7 18:12:55 krasnov-teach kernel: system 00:02: [io  0x04d0-0x04d1] has been reserved
+Nov  7 18:12:55 krasnov-teach kernel: system 00:02: [io  0x0400-0x0407] has been reserved
+Nov  7 18:12:55 krasnov-teach kernel: system 00:02: [mem 0xe0000000-0xefffffff] has been reserved
+Nov  7 18:12:55 krasnov-teach kernel: pnp: PnP ACPI: found 6 devices
+Nov  7 18:12:55 krasnov-teach kernel: thermal_sys: Registered thermal governor 'fair_share'
+Nov  7 18:12:55 krasnov-teach kernel: thermal_sys: Registered thermal governor 'bang_bang'
+Nov  7 18:12:55 krasnov-teach kernel: thermal_sys: Registered thermal governor 'step_wise'
+Nov  7 18:12:55 krasnov-teach kernel: thermal_sys: Registered thermal governor 'user_space'
+Nov  7 18:12:55 krasnov-teach kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:05.0: BAR 6: assigned [mem 0xc1009800-0xc1009fff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:0a.0: BAR 6: assigned [mem 0xc100a000-0xc100a7ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1b.0: BAR 6: assigned [mem 0xc100a800-0xc100afff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1c.0: BAR 6: assigned [mem 0xc100b000-0xc100b7ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: BAR 6: assigned [mem 0xc100b800-0xc100bfff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1e.0: BAR 6: assigned [mem 0xc100c000-0xc100c7ff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1f.0: BAR 6: assigned [mem 0xc100c800-0xc100cfff pref]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: resource 7 [mem 0xc0000000-0xdfffffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: resource 8 [mem 0xf0000000-0xf07fffff window]
+Nov  7 18:12:55 krasnov-teach kernel: pci_bus 0000:00: resource 9 [mem 0xd000000000-0xd0000fffff window]
+Nov  7 18:12:55 krasnov-teach kernel: NET: Registered protocol family 2
+Nov  7 18:12:55 krasnov-teach kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: TCP bind hash table entries: 16384 (order: 6, 262144 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Nov  7 18:12:55 krasnov-teach kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Nov  7 18:12:55 krasnov-teach kernel: NET: Registered protocol family 1
+Nov  7 18:12:55 krasnov-teach kernel: NET: Registered protocol family 44
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1d.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Nov  7 18:12:55 krasnov-teach kernel: pci 0000:00:1f.0: Activating ISA DMA hang workarounds
+Nov  7 18:12:55 krasnov-teach kernel: PCI: CLS 0 bytes, default 64
+Nov  7 18:12:55 krasnov-teach kernel: Trying to unpack rootfs image as initramfs...
+Nov  7 18:12:55 krasnov-teach kernel: Freeing initrd memory: 30624K
+Nov  7 18:12:55 krasnov-teach kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 163840 ms ovfl timer
+Nov  7 18:12:55 krasnov-teach kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2b23e604461, max_idle_ns: 440795297641 ns
+Nov  7 18:12:55 krasnov-teach kernel: clocksource: Switched to clocksource tsc
+Nov  7 18:12:55 krasnov-teach kernel: check: Scanning for low memory corruption every 60 seconds
+Nov  7 18:12:55 krasnov-teach kernel: Initialise system trusted keyrings
+Nov  7 18:12:55 krasnov-teach kernel: Key type blacklist registered
+Nov  7 18:12:55 krasnov-teach kernel: workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Nov  7 18:12:55 krasnov-teach kernel: zbud: loaded
+Nov  7 18:12:55 krasnov-teach kernel: Platform Keyring initialized
+Nov  7 18:12:55 krasnov-teach kernel: Allocating IMA blacklist keyring.
+Nov  7 18:12:55 krasnov-teach kernel: NET: Registered protocol family 38
+Nov  7 18:12:55 krasnov-teach kernel: Key type asymmetric registered
+Nov  7 18:12:55 krasnov-teach kernel: Asymmetric key parser 'x509' registered
+Nov  7 18:12:55 krasnov-teach kernel: Key type pkcs7_test registered
+Nov  7 18:12:55 krasnov-teach kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+Nov  7 18:12:55 krasnov-teach kernel: io scheduler mq-deadline registered
+Nov  7 18:12:55 krasnov-teach kernel: io scheduler kyber registered
+Nov  7 18:12:55 krasnov-teach kernel: io scheduler bfq registered
+Nov  7 18:12:55 krasnov-teach kernel: atomic64_test: passed for x86-64 platform with CX8 and with SSE
+Nov  7 18:12:55 krasnov-teach kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Nov  7 18:12:55 krasnov-teach kernel: efifb: probing for efifb
+Nov  7 18:12:55 krasnov-teach kernel: efifb: framebuffer at 0xc0000000, using 1876k, total 1875k
+Nov  7 18:12:55 krasnov-teach kernel: efifb: mode is 800x600x32, linelength=3200, pages=1
+Nov  7 18:12:55 krasnov-teach kernel: efifb: scrolling: redraw
+Nov  7 18:12:55 krasnov-teach kernel: efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Nov  7 18:12:55 krasnov-teach kernel: Console: switching to colour frame buffer device 100x37
+Nov  7 18:12:55 krasnov-teach kernel: fb0: EFI VGA frame buffer device
+Nov  7 18:12:55 krasnov-teach kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Nov  7 18:12:55 krasnov-teach kernel: ACPI: Power Button [PWRF]
+Nov  7 18:12:55 krasnov-teach kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Nov  7 18:12:55 krasnov-teach kernel: 00:03: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Nov  7 18:12:55 krasnov-teach kernel: 00:04: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+Nov  7 18:12:55 krasnov-teach kernel: serial8250: ttyS2 at I/O 0x3e8 (irq = 4, base_baud = 115200) is a 16550A
+Nov  7 18:12:55 krasnov-teach kernel: serial8250: ttyS3 at I/O 0x2e8 (irq = 3, base_baud = 115200) is a 16550A
+Nov  7 18:12:55 krasnov-teach kernel: Non-volatile memory driver v1.3
+Nov  7 18:12:55 krasnov-teach kernel: Linux agpgart interface v0.103
+Nov  7 18:12:55 krasnov-teach kernel: AMD-Vi: AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+Nov  7 18:12:55 krasnov-teach kernel: AMD-Vi: AMD IOMMUv2 functionality not available on this system
+Nov  7 18:12:55 krasnov-teach kernel: rdac: device handler registered
+Nov  7 18:12:55 krasnov-teach kernel: hp_sw: device handler registered
+Nov  7 18:12:55 krasnov-teach kernel: emc: device handler registered
+Nov  7 18:12:55 krasnov-teach kernel: alua: device handler registered
+Nov  7 18:12:55 krasnov-teach kernel: VFIO - User Level meta-driver version: 0.3
+Nov  7 18:12:55 krasnov-teach kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Nov  7 18:12:55 krasnov-teach kernel: ehci-pci: EHCI PCI platform driver
+Nov  7 18:12:55 krasnov-teach kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov  7 18:12:55 krasnov-teach kernel: ohci-pci: OHCI PCI platform driver
+Nov  7 18:12:55 krasnov-teach kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Nov  7 18:12:55 krasnov-teach kernel: xhci_hcd 0000:00:1e.0: xHCI Host Controller
+Nov  7 18:12:55 krasnov-teach kernel: xhci_hcd 0000:00:1e.0: new USB bus registered, assigned bus number 1
+Nov  7 18:12:55 krasnov-teach kernel: xhci_hcd 0000:00:1e.0: hcc params 0x03401281 hci version 0x100 quirks 0x000000000000b930
+Nov  7 18:12:55 krasnov-teach kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+Nov  7 18:12:55 krasnov-teach kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  7 18:12:55 krasnov-teach kernel: usb usb1: Product: xHCI Host Controller
+Nov  7 18:12:55 krasnov-teach kernel: usb usb1: Manufacturer: Linux 5.4.17-2136.310.7.1.el8uek.x86_64 xhci-hcd
+Nov  7 18:12:55 krasnov-teach kernel: usb usb1: SerialNumber: 0000:00:1e.0
+Nov  7 18:12:55 krasnov-teach kernel: hub 1-0:1.0: USB hub found
+Nov  7 18:12:55 krasnov-teach kernel: hub 1-0:1.0: 4 ports detected
+Nov  7 18:12:55 krasnov-teach kernel: xhci_hcd 0000:00:1e.0: xHCI Host Controller
+Nov  7 18:12:55 krasnov-teach kernel: xhci_hcd 0000:00:1e.0: new USB bus registered, assigned bus number 2
+Nov  7 18:12:55 krasnov-teach kernel: xhci_hcd 0000:00:1e.0: Host supports USB 3.0 SuperSpeed
+Nov  7 18:12:55 krasnov-teach kernel: usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+Nov  7 18:12:55 krasnov-teach kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.04
+Nov  7 18:12:55 krasnov-teach kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  7 18:12:55 krasnov-teach kernel: usb usb2: Product: xHCI Host Controller
+Nov  7 18:12:55 krasnov-teach kernel: usb usb2: Manufacturer: Linux 5.4.17-2136.310.7.1.el8uek.x86_64 xhci-hcd
+Nov  7 18:12:55 krasnov-teach kernel: usb usb2: SerialNumber: 0000:00:1e.0
+Nov  7 18:12:55 krasnov-teach kernel: hub 2-0:1.0: USB hub found
+Nov  7 18:12:55 krasnov-teach kernel: hub 2-0:1.0: 4 ports detected
+Nov  7 18:12:55 krasnov-teach kernel: usbcore: registered new interface driver usbserial_generic
+Nov  7 18:12:55 krasnov-teach kernel: usbserial: USB Serial support registered for generic
+Nov  7 18:12:55 krasnov-teach kernel: i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f03:MOU] at 0x60,0x64 irq 1,12
+Nov  7 18:12:55 krasnov-teach kernel: i8042: Warning: Keylock active
+Nov  7 18:12:55 krasnov-teach kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Nov  7 18:12:55 krasnov-teach kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Nov  7 18:12:55 krasnov-teach kernel: mousedev: PS/2 mouse device common for all mice
+Nov  7 18:12:55 krasnov-teach kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Nov  7 18:12:55 krasnov-teach kernel: rtc_cmos 00:05: registered as rtc0
+Nov  7 18:12:55 krasnov-teach kernel: rtc_cmos 00:05: alarms up to one day, y3k, 114 bytes nvram
+Nov  7 18:12:55 krasnov-teach kernel: intel_pstate: CPU model not supported
+Nov  7 18:12:55 krasnov-teach kernel: EFI Variables Facility v0.08 2004-May-17
+Nov  7 18:12:55 krasnov-teach kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Nov  7 18:12:55 krasnov-teach kernel: usbcore: registered new interface driver usbhid
+Nov  7 18:12:55 krasnov-teach kernel: usbhid: USB HID core driver
+Nov  7 18:12:55 krasnov-teach kernel: drop_monitor: Initializing network drop monitor service
+Nov  7 18:12:55 krasnov-teach kernel: Initializing XFRM netlink socket
+Nov  7 18:12:55 krasnov-teach kernel: IPv6: Loaded, but administratively disabled, reboot required to enable
+Nov  7 18:12:55 krasnov-teach kernel: NET: Registered protocol family 17
+Nov  7 18:12:55 krasnov-teach kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Nov  7 18:12:55 krasnov-teach kernel: IPI shorthand broadcast: enabled
+Nov  7 18:12:55 krasnov-teach kernel: sched_clock: Marking stable (1482011572, 108932958)->(1628391928, -37447398)
+Nov  7 18:12:55 krasnov-teach kernel: registered taskstats version 1
+Nov  7 18:12:55 krasnov-teach kernel: Loading compiled-in X.509 certificates
+Nov  7 18:12:55 krasnov-teach kernel: Loaded X.509 cert 'Oracle CA Server: f75e9b5e5c58b65ea5cac4777c241c6a74f7981c'
+Nov  7 18:12:55 krasnov-teach kernel: Loaded X.509 cert 'Oracle Linux Kernel Module Signing Key: 2bb352412969a3653f0eb6021763408ebb9bb5ab'
+Nov  7 18:12:55 krasnov-teach kernel: Loaded X.509 cert 'Oracle America, Inc.: Ksplice Kernel Module Signing Key: 09010ebef5545fa7c54b626ef518e077b5b1ee4c'
+Nov  7 18:12:55 krasnov-teach kernel: Loaded X.509 cert 'Oracle IMA signing CA: a2f28976a05984028f7d1a4904ae14e8e468e551'
+Nov  7 18:12:55 krasnov-teach kernel: blacklist: Loading compiled-in revocation X.509 certificates
+Nov  7 18:12:55 krasnov-teach kernel: Loaded X.509 cert 'Oracle Corporation: 7f559b8e9d9e05183480a7149e5a1de0bc265ada'
+Nov  7 18:12:55 krasnov-teach kernel: Loaded X.509 cert 'Oracle Corporation: c179886de39a159135e9877492debf044af7d1eb'
+Nov  7 18:12:55 krasnov-teach kernel: Loaded X.509 cert 'Oracle Corporation: 51698ec3be0f5eb8cba8ec197d291879098fade4'
+Nov  7 18:12:55 krasnov-teach kernel: zswap: loaded using pool lzo/zbud
+Nov  7 18:12:55 krasnov-teach kernel: page_owner is disabled
+Nov  7 18:12:55 krasnov-teach kernel: Key type ._fscrypt registered
+Nov  7 18:12:55 krasnov-teach kernel: Key type .fscrypt registered
+Nov  7 18:12:55 krasnov-teach kernel: Key type big_key registered
+Nov  7 18:12:55 krasnov-teach kernel: Key type encrypted registered
+Nov  7 18:12:55 krasnov-teach kernel: ima: No TPM chip found, activating TPM-bypass!
+Nov  7 18:12:55 krasnov-teach kernel: ima: Allocated hash algorithm: sha256
+Nov  7 18:12:55 krasnov-teach kernel: ima: No architecture policies found
+Nov  7 18:12:55 krasnov-teach kernel: evm: Initialising EVM extended attributes:
+Nov  7 18:12:55 krasnov-teach kernel: evm: security.selinux
+Nov  7 18:12:55 krasnov-teach kernel: evm: security.ima
+Nov  7 18:12:55 krasnov-teach kernel: evm: security.capability
+Nov  7 18:12:55 krasnov-teach kernel: evm: HMAC attrs: 0x1
+Nov  7 18:12:55 krasnov-teach kernel: rtc_cmos 00:05: setting system clock to 2024-11-07T18:12:55 UTC (1731003175)
+Nov  7 18:12:55 krasnov-teach kernel: RAS: Correctable Errors collector initialized.
+Nov  7 18:12:55 krasnov-teach kernel: integrity: Unable to open file: /etc/keys/x509_ima.der (-2)
+Nov  7 18:12:55 krasnov-teach kernel: Freeing unused decrypted memory: 2040K
+Nov  7 18:12:55 krasnov-teach kernel: Freeing unused kernel image memory: 3020K
+Nov  7 18:12:55 krasnov-teach kernel: Write protecting the kernel read-only data: 26624k
+Nov  7 18:12:55 krasnov-teach kernel: Freeing unused kernel image memory: 2040K
+Nov  7 18:12:55 krasnov-teach kernel: Freeing unused kernel image memory: 112K
+Nov  7 18:12:55 krasnov-teach kernel: rodata_test: all tests were successful
+Nov  7 18:12:55 krasnov-teach kernel: Run /init as init process
+Nov  7 18:12:55 krasnov-teach systemd[1]: systemd 239 (239-58.0.1.el8_6.7) running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=legacy)
+Nov  7 18:12:55 krasnov-teach systemd[1]: Detected virtualization bhyve.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Detected architecture x86-64.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Running in initial RAM disk.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Set hostname to <localhost.localdomain>.
+Nov  7 18:12:55 krasnov-teach kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Nov  7 18:12:55 krasnov-teach systemd[1]: Listening on udev Control Socket.
+Nov  7 18:12:55 krasnov-teach kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Nov  7 18:12:55 krasnov-teach systemd[1]: Reached target Slices.
+Nov  7 18:12:55 krasnov-teach kernel: random: systemd: uninitialized urandom read (16 bytes read)
+Nov  7 18:12:55 krasnov-teach systemd[1]: Reached target Local File Systems.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Listening on Journal Socket.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Nov  7 18:12:55 krasnov-teach kernel: usb 2-1: new SuperSpeed Gen 1 USB device number 2 using xhci_hcd
+Nov  7 18:12:55 krasnov-teach kernel: usb 2-1: New USB device found, idVendor=fb5d, idProduct=0001, bcdDevice= 0.00
+Nov  7 18:12:55 krasnov-teach kernel: usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov  7 18:12:55 krasnov-teach kernel: usb 2-1: Product: HID Tablet
+Nov  7 18:12:55 krasnov-teach kernel: usb 2-1: Manufacturer: BHYVE
+Nov  7 18:12:55 krasnov-teach kernel: usb 2-1: SerialNumber: 01
+Nov  7 18:12:55 krasnov-teach kernel: input: BHYVE HID Tablet as /devices/pci0000:00/0000:00:1e.0/usb2/2-1/2-1:1.0/0003:FB5D:0001.0001/input/input4
+Nov  7 18:12:55 krasnov-teach kernel: hid-generic 0003:FB5D:0001.0001: input,hidraw0: USB HID v10.01 Mouse [BHYVE HID Tablet] on usb-0000:00:1e.0-1/input0
+Nov  7 18:12:55 krasnov-teach kernel: IPMI message handler: version 39.2
+Nov  7 18:12:55 krasnov-teach kernel: ipmi device interface
+Nov  7 18:12:55 krasnov-teach kernel: random: fast init done
+Nov  7 18:12:55 krasnov-teach systemd-journald[151]: Journal started
+Nov  7 18:12:55 krasnov-teach systemd-journald[151]: Runtime journal (/run/log/journal/06088db1377a47b2bcd19b4355d5886f) is 8.0M, max 94.2M, 86.2M free.
+Nov  7 18:12:55 krasnov-teach systemd-modules-load[148]: Module 'msr' is builtin
+Nov  7 18:12:55 krasnov-teach systemd-modules-load[148]: Inserted module 'ipmi_devintf'
+Nov  7 18:12:55 krasnov-teach systemd-sysctl[170]: Couldn't write 'fq_codel' to 'net/core/default_qdisc', ignoring: No such file or directory
+Nov  7 18:12:55 krasnov-teach systemd-sysctl[170]: Couldn't write '1' to 'net/ipv6/conf/all/disable_ipv6', ignoring: No such file or directory
+Nov  7 18:12:55 krasnov-teach systemd[1]: systemd-vconsole-setup.service: Succeeded.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Started Setup Virtual Console.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Starting dracut cmdline hook...
+Nov  7 18:12:55 krasnov-teach dracut-cmdline[177]: dracut-8.6 dracut-049-202.git20220511.0.1.el8_6
+Nov  7 18:12:55 krasnov-teach dracut-cmdline[177]: Using kernel command line parameters: BOOT_IMAGE=(hd0,gpt2)/boot/vmlinuz-5.4.17-2136.310.7.1.el8uek.x86_64 root=UUID=a8d18b4e-1ac0-45e3-ba22-6e3a05840f20 ro console=tty0 console=ttyS0,115200n8 rootflags=discard ipv6.disable=1
+Nov  7 18:12:55 krasnov-teach systemd[1]: Started dracut cmdline hook.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Starting dracut pre-udev hook...
+Nov  7 18:12:55 krasnov-teach systemd[1]: Started dracut pre-udev hook.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Starting udev Kernel Device Manager...
+Nov  7 18:12:55 krasnov-teach systemd[1]: Started udev Kernel Device Manager.
+Nov  7 18:12:55 krasnov-teach systemd[1]: Starting udev Coldplug all Devices...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Mounting Kernel Configuration File System...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Mounted Kernel Configuration File System.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started udev Coldplug all Devices.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target System Initialization.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting Show Plymouth Boot Screen...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting dracut initqueue hook...
+Nov  7 18:12:56 krasnov-teach kernel: input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input3
+Nov  7 18:12:56 krasnov-teach systemd[1]: Received SIGRTMIN+20 from PID 274 (plymouthd).
+Nov  7 18:12:56 krasnov-teach kernel: virtio-pci 0000:00:05.0: virtio_pci: leaving for legacy driver
+Nov  7 18:12:56 krasnov-teach systemd-udevd[262]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov  7 18:12:56 krasnov-teach kernel: virtio-pci 0000:00:0a.0: virtio_pci: leaving for legacy driver
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started Show Plymouth Boot Screen.
+Nov  7 18:12:56 krasnov-teach kernel: virtio-pci 0000:00:1b.0: virtio_pci: leaving for legacy driver
+Nov  7 18:12:56 krasnov-teach kernel: virtio-pci 0000:00:1c.0: virtio_pci: leaving for legacy driver
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target Paths.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target Basic System.
+Nov  7 18:12:56 krasnov-teach kernel: virtio_blk virtio1: [vda] 52428800 512-byte logical blocks (26.8 GB/25.0 GiB)
+Nov  7 18:12:56 krasnov-teach kernel: crng init done
+Nov  7 18:12:56 krasnov-teach kernel: random: 7 urandom warning(s) missed due to ratelimiting
+Nov  7 18:12:56 krasnov-teach kernel: vda: detected capacity change from 0 to 26843545600
+Nov  7 18:12:56 krasnov-teach kernel: GPT:Primary header thinks Alt. header is not at the end of the disk.
+Nov  7 18:12:56 krasnov-teach kernel: GPT:7782399 != 52428799
+Nov  7 18:12:56 krasnov-teach kernel: GPT:Alternate GPT header not at the end of the disk.
+Nov  7 18:12:56 krasnov-teach kernel: GPT:7782399 != 52428799
+Nov  7 18:12:56 krasnov-teach kernel: GPT: Use GNU Parted to correct GPT errors.
+Nov  7 18:12:56 krasnov-teach kernel: vda: vda1 vda2
+Nov  7 18:12:56 krasnov-teach systemd-udevd[268]: Using default interface naming scheme 'rhel-8.0'.
+Nov  7 18:12:56 krasnov-teach systemd-udevd[268]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov  7 18:12:56 krasnov-teach kernel: virtio_net virtio0 enp0s5: renamed from eth0
+Nov  7 18:12:56 krasnov-teach systemd-udevd[261]: Using default interface naming scheme 'rhel-8.0'.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Found device /dev/disk/by-uuid/a8d18b4e-1ac0-45e3-ba22-6e3a05840f20.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target Initrd Root Device.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started dracut initqueue hook.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting File System Check on /dev/disk/by-uuid/a8d18b4e-1ac0-45e3-ba22-6e3a05840f20...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target Remote File Systems (Pre).
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target Remote File Systems.
+Nov  7 18:12:56 krasnov-teach systemd-fsck[298]: /usr/sbin/fsck.xfs: XFS file system.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started File System Check on /dev/disk/by-uuid/a8d18b4e-1ac0-45e3-ba22-6e3a05840f20.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Mounting /sysroot...
+Nov  7 18:12:56 krasnov-teach kernel: SGI XFS with ACLs, security attributes, realtime, scrub, repair, no debug enabled
+Nov  7 18:12:56 krasnov-teach kernel: XFS (vda2): Mounting V5 Filesystem
+Nov  7 18:12:56 krasnov-teach kernel: XFS (vda2): Ending clean mount
+Nov  7 18:12:56 krasnov-teach systemd[1]: Mounted /sysroot.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target Initrd Root File System.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting Reload Configuration from the Real Root...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reloading.
+Nov  7 18:12:56 krasnov-teach systemd[1]: initrd-parse-etc.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started Reload Configuration from the Real Root.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target Initrd File Systems.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Reached target Initrd Default Target.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting dracut pre-pivot and cleanup hook...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started dracut pre-pivot and cleanup hook.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting Cleaning Up and Shutting Down Daemons...
+Nov  7 18:12:56 krasnov-teach systemd[1]: dracut-pre-pivot.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped dracut pre-pivot and cleanup hook.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Initrd Default Target.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Basic System.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Sockets.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Slices.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Initrd Root Device.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Paths.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target System Initialization.
+Nov  7 18:12:56 krasnov-teach systemd[1]: systemd-sysctl.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped Apply Kernel Variables.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Swap.
+Nov  7 18:12:56 krasnov-teach systemd[1]: systemd-tmpfiles-setup.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped Create Volatile Files and Directories.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting Setup Virtual Console...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopping udev Kernel Device Manager...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Timers.
+Nov  7 18:12:56 krasnov-teach systemd[1]: systemd-modules-load.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped Load Kernel Modules.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Local File Systems.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Remote File Systems.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped target Remote File Systems (Pre).
+Nov  7 18:12:56 krasnov-teach systemd[1]: dracut-initqueue.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped dracut initqueue hook.
+Nov  7 18:12:56 krasnov-teach systemd[1]: systemd-udev-trigger.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped udev Coldplug all Devices.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting Plymouth switch root service...
+Nov  7 18:12:56 krasnov-teach systemd[1]: systemd-udevd.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped udev Kernel Device Manager.
+Nov  7 18:12:56 krasnov-teach systemd[1]: initrd-cleanup.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started Cleaning Up and Shutting Down Daemons.
+Nov  7 18:12:56 krasnov-teach systemd[1]: dracut-pre-udev.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped dracut pre-udev hook.
+Nov  7 18:12:56 krasnov-teach systemd[1]: dracut-cmdline.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped dracut cmdline hook.
+Nov  7 18:12:56 krasnov-teach systemd[1]: systemd-tmpfiles-setup-dev.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped Create Static Device Nodes in /dev.
+Nov  7 18:12:56 krasnov-teach systemd[1]: kmod-static-nodes.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Stopped Create list of required static device nodes for the current kernel.
+Nov  7 18:12:56 krasnov-teach systemd[1]: systemd-udevd-kernel.socket: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Closed udev Kernel Socket.
+Nov  7 18:12:56 krasnov-teach systemd[1]: systemd-udevd-control.socket: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Closed udev Control Socket.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Starting Cleanup udevd DB...
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started Plymouth switch root service.
+Nov  7 18:12:56 krasnov-teach systemd[1]: initrd-udevadm-cleanup-db.service: Succeeded.
+Nov  7 18:12:56 krasnov-teach systemd[1]: Started Cleanup udevd DB.
+Nov  7 18:12:57 krasnov-teach systemd[1]: systemd-vconsole-setup.service: Succeeded.
+Nov  7 18:12:57 krasnov-teach systemd[1]: Started Setup Virtual Console.
+Nov  7 18:12:57 krasnov-teach systemd[1]: Reached target Switch Root.
+Nov  7 18:12:57 krasnov-teach systemd[1]: Starting Switch Root...
+Nov  7 18:12:57 krasnov-teach systemd[1]: Switching root.
+Nov  7 18:12:57 krasnov-teach systemd-journald[151]: Journal stopped
+Nov  7 18:12:58 krasnov-teach kernel: printk: systemd: 19 output lines suppressed due to ratelimiting
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch in class filesystem not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch in class file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_mount in class file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_sb in class file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_with_perm in class file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_reads in class file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch in class dir not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_mount in class dir not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_sb in class dir not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_with_perm in class dir not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_reads in class dir not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch in class lnk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_mount in class lnk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_sb in class lnk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_with_perm in class lnk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_reads in class lnk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch in class chr_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_mount in class chr_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_sb in class chr_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_with_perm in class chr_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_reads in class chr_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch in class blk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_mount in class blk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_sb in class blk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_with_perm in class blk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_reads in class blk_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch in class sock_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_mount in class sock_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_sb in class sock_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_with_perm in class sock_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_reads in class sock_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch in class fifo_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_mount in class fifo_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_sb in class fifo_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_with_perm in class fifo_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  Permission watch_reads in class fifo_file not defined in policy.
+Nov  7 18:12:58 krasnov-teach kernel: SELinux: the above unknown classes and permissions will be allowed
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  policy capability network_peer_controls=1
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  policy capability open_perms=1
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  policy capability extended_socket_class=1
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  policy capability always_check_network=0
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  policy capability cgroup_seclabel=1
+Nov  7 18:12:58 krasnov-teach kernel: SELinux:  policy capability nnp_nosuid_transition=1
+Nov  7 18:12:58 krasnov-teach kernel: audit: type=1403 audit(1731003177.698:2): auid=4294967295 ses=4294967295 lsm=selinux res=1
+Nov  7 18:12:58 krasnov-teach systemd[1]: Successfully loaded SELinux policy in 606.103ms.
+Nov  7 18:12:58 krasnov-teach systemd[1]: RTC configured in localtime, applying delta of 0 minutes to system time.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Relabelled /dev, /run and /sys/fs/cgroup in 18.524ms.
+Nov  7 18:12:58 krasnov-teach systemd[1]: systemd 239 (239-58.0.1.el8_6.7) running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=legacy)
+Nov  7 18:12:58 krasnov-teach systemd[1]: Detected virtualization bhyve.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Detected architecture x86-64.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Set hostname to <localhost.localdomain>.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Initializing machine ID from random generator.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Installed transient /etc/machine-id file.
+Nov  7 18:12:58 krasnov-teach systemd[1]: systemd-journald.service: Succeeded.
+Nov  7 18:12:58 krasnov-teach systemd[1]: initrd-switch-root.service: Succeeded.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Stopped Switch Root.
+Nov  7 18:12:58 krasnov-teach systemd[1]: systemd-journald.service: Service has no hold-off time (RestartSec=0), scheduling restart.
+Nov  7 18:12:58 krasnov-teach systemd-journald[420]: Journal started
+Nov  7 18:12:58 krasnov-teach systemd-journald[420]: Runtime journal (/run/log/journal/1dc94654101449279004a477a7d197c1) is 8.0M, max 94.2M, 86.2M free.
+Nov  7 18:12:58 krasnov-teach systemd-modules-load[423]: Module 'msr' is builtin
+Nov  7 18:12:58 krasnov-teach kernel: xfs filesystem being remounted at / supports timestamps until 2038 (0x7fffffff)
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Read and set NIS domainname from /etc/sysconfig/network.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Mounted Kernel Debug File System.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Load Kernel Modules.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Mounted POSIX Message Queue File System.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Remount Root and Kernel File Systems.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Create list of required static device nodes for the current kernel.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Mounted Huge Pages File System.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov  7 18:12:58 krasnov-teach systemd[1]: Starting Load/Save Random Seed...
+Nov  7 18:12:58 krasnov-teach systemd[1]: Starting Apply Kernel Variables...
+Nov  7 18:12:58 krasnov-teach systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Load/Save Random Seed.
+Nov  7 18:12:58 krasnov-teach systemd-journald[420]: Runtime journal (/run/log/journal/1dc94654101449279004a477a7d197c1) is 8.0M, max 94.2M, 86.2M free.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Flush Journal to Persistent Storage.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Create Static Device Nodes in /dev.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Starting udev Kernel Device Manager...
+Nov  7 18:12:58 krasnov-teach systemd-sysctl[444]: Couldn't write '1' to 'net/ipv6/conf/all/disable_ipv6', ignoring: No such file or directory
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Apply Kernel Variables.
+Nov  7 18:12:58 krasnov-teach systemd[1]: systemd-vconsole-setup.service: Succeeded.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started Setup Virtual Console.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started udev Coldplug all Devices.
+Nov  7 18:12:58 krasnov-teach systemd[1]: Starting udev Wait for Complete Device Initialization...
+Nov  7 18:12:58 krasnov-teach systemd[1]: Started udev Kernel Device Manager.
+Nov  7 18:12:58 krasnov-teach kernel: input: PC Speaker as /devices/platform/pcspkr/input/input5
+Nov  7 18:12:58 krasnov-teach systemd-udevd[461]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov  7 18:12:58 krasnov-teach systemd-udevd[459]: Using default interface naming scheme 'rhel-8.0'.
+Nov  7 18:12:58 krasnov-teach systemd-udevd[459]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov  7 18:12:58 krasnov-teach kernel: cryptd: max_cpu_qlen set to 1000
+Nov  7 18:12:58 krasnov-teach kernel: AVX2 version of gcm_enc/dec engaged.
+Nov  7 18:12:58 krasnov-teach kernel: AES CTR mode by8 optimization enabled
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started udev Wait for Complete Device Initialization.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Reached target Local File Systems (Pre).
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting File System Check on /dev/disk/by-uuid/2648-32B7...
+Nov  7 18:12:59 krasnov-teach systemd-fsck[537]: fsck.fat 4.1 (2017-01-24)
+Nov  7 18:12:59 krasnov-teach systemd-fsck[537]: /dev/vda1: 14 files, 3257/25541 clusters
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started File System Check on /dev/disk/by-uuid/2648-32B7.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Mounting /boot/efi...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Mounted /boot/efi.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Reached target Local File Systems.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Restore /run/initramfs on shutdown...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Commit a transient machine-id on disk...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Import network configuration from initramfs...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Restore /run/initramfs on shutdown.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Received SIGRTMIN+20 from PID 274 (plymouthd).
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Nov  7 18:12:59 krasnov-teach systemd[1]: etc-machine\x2did.mount: Succeeded.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Commit a transient machine-id on disk.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Import network configuration from initramfs.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Create Volatile Files and Directories...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Create Volatile Files and Directories.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Security Auditing Service...
+Nov  7 18:12:59 krasnov-teach auditd[569]: audit dispatcher initialized with q_depth=1200 and 1 active plugins
+Nov  7 18:12:59 krasnov-teach auditd[569]: Init complete, auditd 3.0.7 listening for events (startup state enable)
+Nov  7 18:12:59 krasnov-teach augenrules[574]: /sbin/augenrules: No change
+Nov  7 18:12:59 krasnov-teach augenrules[584]: No rules
+Nov  7 18:12:59 krasnov-teach augenrules[584]: enabled 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: failure 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: pid 569
+Nov  7 18:12:59 krasnov-teach augenrules[584]: rate_limit 0
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog_limit 8192
+Nov  7 18:12:59 krasnov-teach augenrules[584]: lost 0
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog_wait_time 60000
+Nov  7 18:12:59 krasnov-teach augenrules[584]: enabled 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: failure 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: pid 569
+Nov  7 18:12:59 krasnov-teach augenrules[584]: rate_limit 0
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog_limit 8192
+Nov  7 18:12:59 krasnov-teach augenrules[584]: lost 0
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog_wait_time 60000
+Nov  7 18:12:59 krasnov-teach augenrules[584]: enabled 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: failure 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: pid 569
+Nov  7 18:12:59 krasnov-teach augenrules[584]: rate_limit 0
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog_limit 8192
+Nov  7 18:12:59 krasnov-teach augenrules[584]: lost 0
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog 1
+Nov  7 18:12:59 krasnov-teach augenrules[584]: backlog_wait_time 60000
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Security Auditing Service.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Reached target System Initialization.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Updates mlocate database every day.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Listening on SSSD Kerberos Cache Manager responder socket.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Listening on Open-iSCSI iscsiuio Socket.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Reached target Sockets.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Reached target Basic System.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started irqbalance daemon.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started D-Bus System Message Bus.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started libstoragemgmt plug-in server daemon.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting System Security Services Daemon...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting VDO volume services...
+Nov  7 18:12:59 krasnov-teach /usr/sbin/irqbalance[594]: Balancing is ineffective on systems with a single cpu.  Shutting down
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting NTP client/server...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started dnf makecache --timer.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting Authorization Manager...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started daily update of the root trust anchor for DNSSEC.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Reached target Timers.
+Nov  7 18:12:59 krasnov-teach systemd[1]: irqbalance.service: Succeeded.
+Nov  7 18:12:59 krasnov-teach systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Update a database for mlocate.
+Nov  7 18:12:59 krasnov-teach chronyd[608]: chronyd version 4.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Nov  7 18:12:59 krasnov-teach polkitd[602]: Started polkitd version 0.115
+Nov  7 18:12:59 krasnov-teach chronyd[608]: Could not open command socket on [::1]:323
+Nov  7 18:12:59 krasnov-teach chronyd[608]: Frequency -43.536 +/- 14.908 ppm read from /var/lib/chrony/drift
+Nov  7 18:12:59 krasnov-teach chronyd[608]: Using right/UTC timezone to obtain leap second data
+Nov  7 18:12:59 krasnov-teach sssd[598]: Starting up
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started NTP client/server.
+Nov  7 18:12:59 krasnov-teach sssd_be[623]: Starting up
+Nov  7 18:12:59 krasnov-teach systemd[1]: Started Authorization Manager.
+Nov  7 18:12:59 krasnov-teach sssd_nss[635]: Starting up
+Nov  7 18:13:00 krasnov-teach systemd[1]: Started System Security Services Daemon.
+Nov  7 18:13:00 krasnov-teach systemd[1]: Reached target User and Group Name Lookups.
+Nov  7 18:13:00 krasnov-teach systemd[1]: Starting Login Service...
+Nov  7 18:13:00 krasnov-teach systemd-logind[673]: New seat seat0.
+Nov  7 18:13:00 krasnov-teach systemd-logind[673]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  7 18:13:00 krasnov-teach systemd-logind[673]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Nov  7 18:13:00 krasnov-teach systemd[1]: Started Login Service.
+Nov  7 18:13:00 krasnov-teach systemd[1]: Started VDO volume services.
+Nov  7 18:13:00 krasnov-teach systemd[1]: unbound-anchor.service: Succeeded.
+Nov  7 18:13:00 krasnov-teach systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  7 18:13:01 krasnov-teach systemd[1]: mlocate-updatedb.service: Succeeded.
+Nov  7 18:13:04 krasnov-teach dbus-daemon[595]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.7' (uid=0 pid=784 comm="hostnamectl set-hostname krasnov-teach.local " label="system_u:system_r:cloud_init_t:s0")
+Nov  7 18:13:04 krasnov-teach systemd[1]: Starting Hostname Service...
+Nov  7 18:13:04 krasnov-teach dbus-daemon[595]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Nov  7 18:13:04 krasnov-teach systemd[1]: Started Hostname Service.
+Nov  7 18:13:04 krasnov-teach systemd-hostnamed[785]: Changed static host name to 'krasnov-teach.local'
+Nov  7 18:13:04 krasnov-teach systemd-hostnamed[785]: Changed host name to 'krasnov-teach.local'
+Nov  7 18:13:04 krasnov-teach cloud-init[777]: Cloud-init v. 21.1-15.0.1.el8_6.3 running 'init-local' at Thu, 07 Nov 2024 18:13:00 +0000. Up 6.90 seconds.
+Nov  7 18:13:04 krasnov-teach systemd[1]: Started Initial cloud-init job (pre-networking).
+Nov  7 18:13:04 krasnov-teach systemd[1]: Reached target Network (Pre).
+Nov  7 18:13:04 krasnov-teach systemd[1]: Starting Network Manager...
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2175] NetworkManager (version 1.36.0-7.0.1.el8_6) is starting... (for the first time)
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2184] Read config: /etc/NetworkManager/NetworkManager.conf (etc: 99-cloud-init.conf)
+Nov  7 18:13:04 krasnov-teach systemd[1]: Started Network Manager.
+Nov  7 18:13:04 krasnov-teach systemd[1]: Reached target Network.
+Nov  7 18:13:04 krasnov-teach systemd[1]: Starting Dynamic System Tuning Daemon...
+Nov  7 18:13:04 krasnov-teach systemd[1]: Starting Network Manager Wait Online...
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2294] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2356] manager[0x55dd4be4e090]: monitoring kernel firmware directory '/lib/firmware'.
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2380] hostname: hostname: using hostnamed
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2382] hostname: static hostname changed from (none) to "krasnov-teach.local"
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2387] dns-mgr[0x55dd4be2d250]: init: dns=none,systemd-resolved rc-manager=unmanaged
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2689] manager[0x55dd4be4e090]: rfkill: Wi-Fi hardware radio set enabled
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2690] manager[0x55dd4be4e090]: rfkill: WWAN hardware radio set enabled
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2839] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.36.0-7.0.1.el8_6/libnm-device-plugin-team.so)
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2843] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2845] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2846] manager: Networking is enabled by state file
+Nov  7 18:13:04 krasnov-teach dbus-daemon[595]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.9' (uid=0 pid=792 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2929] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.36.0-7.0.1.el8_6/libnm-settings-plugin-ifcfg-rh.so")
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.2932] settings: Loaded settings plugin: keyfile (internal)
+Nov  7 18:13:04 krasnov-teach systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3070] dhcp-init: Using DHCP client 'internal'
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3085] device (lo): carrier: link connected
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3097] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3167] manager: (enp0s5): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3187] device (enp0s5): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3217] device (enp0s5): carrier: link connected
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3538] device (enp0s5): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3577] policy: auto-activating connection 'System enp0s5' (ff50bf0c-d827-8749-7040-b9a6f2c3f685)
+Nov  7 18:13:04 krasnov-teach systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3599] device (enp0s5): Activation: starting connection 'System enp0s5' (ff50bf0c-d827-8749-7040-b9a6f2c3f685)
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3609] device (enp0s5): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3660] manager: NetworkManager state is now CONNECTING
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3669] device (enp0s5): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3706] device (enp0s5): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3746] device (enp0s5): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:13:04 krasnov-teach dbus-daemon[595]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  7 18:13:04 krasnov-teach systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3941] device (enp0s5): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3943] device (enp0s5): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3946] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3948] manager: NetworkManager state is now CONNECTED_SITE
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3948] policy: set 'System enp0s5' (enp0s5) as default for IPv4 routing and DNS
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3949] device (enp0s5): Activation: successful, device activated.
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3953] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  7 18:13:04 krasnov-teach NetworkManager[792]: <info>  [1731003184.3979] manager: startup complete
+Nov  7 18:13:04 krasnov-teach systemd[1]: Started Network Manager Wait Online.
+Nov  7 18:13:04 krasnov-teach systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Nov  7 18:13:05 krasnov-teach systemd[1]: Started Dynamic System Tuning Daemon.
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: Cloud-init v. 21.1-15.0.1.el8_6.3 running 'init' at Thu, 07 Nov 2024 18:13:05 +0000. Up 11.28 seconds.
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: +++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: +--------+------+--------------+---------------+--------+-------------------+
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: | Device |  Up  |   Address    |      Mask     | Scope  |     Hw-Address    |
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: +--------+------+--------------+---------------+--------+-------------------+
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: | enp0s5 | True | 93.183.73.40 | 255.255.255.0 | global | ca:0b:2a:8d:cd:0b |
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: |   lo   | True |  127.0.0.1   |   255.0.0.0   |  host  |         .         |
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: +--------+------+--------------+---------------+--------+-------------------+
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: +++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: | Route | Destination |   Gateway   |    Genmask    | Interface | Flags |
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: |   0   |   0.0.0.0   | 93.183.73.1 |    0.0.0.0    |   enp0s5  |   UG  |
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: |   1   | 93.183.73.0 |   0.0.0.0   | 255.255.255.0 |   enp0s5  |   U   |
+Nov  7 18:13:05 krasnov-teach cloud-init[1001]: ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Generating public/private rsa key pair.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: The key fingerprint is:
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: SHA256:wHTUaor+ROHB3um89hQ6CZyKlzmDkH3VJ17FIbJpzeo root@krasnov-teach.local
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: The key's randomart image is:
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: +---[RSA 3072]----+
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |      ..+...o.   |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |     + o *.o.    |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |      B *.=      |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: | o   = Oo*       |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |o . ..BoS .      |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: | . +.=.= o .     |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |  o.B . E .      |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |   ..+  .+       |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |     ......      |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: +----[SHA256]-----+
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Generating public/private ecdsa key pair.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: The key fingerprint is:
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: SHA256:han85lTvP5PJhTa4Mb4DGqqN9Qo3Vme795S8YY4mWFs root@krasnov-teach.local
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: The key's randomart image is:
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: +---[ECDSA 256]---+
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |                 |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |         o       |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |        o .      |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |     . . .       |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |      o S +  . . |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |       o.+ooE.+..|
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |    . =.+=.=.**= |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |     B.*o oo*=*o |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |    o.o.o .++==o |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: +----[SHA256]-----+
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Generating public/private ed25519 key pair.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: The key fingerprint is:
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: SHA256:paTIaZ6iN9Ke5+42G37TKOaNN6FQLtM6PDgIDeS8TlQ root@krasnov-teach.local
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: The key's randomart image is:
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: +--[ED25519 256]--+
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |                 |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: | . E             |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |+ .     . .      |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |.+ ..o o o       |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |.o.+= . S        |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |.o=oo..          |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |=+.=+. +         |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |=oO+B+* .        |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: |.=o%O*.o         |
+Nov  7 18:13:06 krasnov-teach cloud-init[1001]: +----[SHA256]-----+
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Initial cloud-init job (metadata service crawler).
+Nov  7 18:13:06 krasnov-teach systemd[1]: Reached target Network is Online.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting Open-iSCSI...
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting System Logging Service...
+Nov  7 18:13:06 krasnov-teach systemd[1]: Reached target sshd-keygen.target.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting OpenSSH server daemon...
+Nov  7 18:13:06 krasnov-teach systemd[1]: Reached target Cloud-config availability.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting Apply the settings specified in cloud-config...
+Nov  7 18:13:06 krasnov-teach kernel: Loading iSCSI transport class v2.0-870.
+Nov  7 18:13:06 krasnov-teach rsyslogd[1075]: [origin software="rsyslogd" swVersion="8.2102.0-7.el8_6.1" x-pid="1075" x-info="https://www.rsyslog.com"] start
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started System Logging Service.
+Nov  7 18:13:06 krasnov-teach iscsid[1073]: iscsid: InitiatorName=iqn.1988-12.com.oracle:e42bf2302dc4
+Nov  7 18:13:06 krasnov-teach iscsid[1073]: iscsid: InitiatorAlias=krasnov-teach.local
+Nov  7 18:13:06 krasnov-teach iscsid[1073]: iscsid: Max file limits 1024 262144
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Open-iSCSI.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting Logout off all iSCSI sessions on shutdown...
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started OpenSSH server daemon.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Logout off all iSCSI sessions on shutdown.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Reached target Remote File Systems (Pre).
+Nov  7 18:13:06 krasnov-teach systemd[1]: Reached target Remote File Systems.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting Permit User Sessions...
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Permit User Sessions.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Command Scheduler.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting Terminate Plymouth Boot Screen...
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Job spooling tools.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting Hold until boot process finishes up...
+Nov  7 18:13:06 krasnov-teach rsyslogd[1075]: imjournal: journal files changed, reloading...  [v8.2102.0-7.el8_6.1 try https://www.rsyslog.com/e/0 ]
+Nov  7 18:13:06 krasnov-teach systemd[1]: Received SIGRTMIN+21 from PID 274 (plymouthd).
+Nov  7 18:13:06 krasnov-teach systemd[1]: Received SIGRTMIN+21 from PID 274 (n/a).
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Terminate Plymouth Boot Screen.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Hold until boot process finishes up.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Serial Getty on ttyS0.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Getty on tty1.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Reached target Login Prompts.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Reached target Multi-User System.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov  7 18:13:06 krasnov-teach systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Nov  7 18:13:06 krasnov-teach systemd[1]: Started Update UTMP about System Runlevel Changes.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Stopping OpenSSH server daemon...
+Nov  7 18:13:07 krasnov-teach systemd[1]: sshd.service: Succeeded.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Stopped OpenSSH server daemon.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Stopped target sshd-keygen.target.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Stopping sshd-keygen.target.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Reached target sshd-keygen.target.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Starting OpenSSH server daemon...
+Nov  7 18:13:07 krasnov-teach systemd[1]: Started OpenSSH server daemon.
+Nov  7 18:13:07 krasnov-teach cloud-init[1112]: Cloud-init v. 21.1-15.0.1.el8_6.3 running 'modules:config' at Thu, 07 Nov 2024 18:13:06 +0000. Up 12.93 seconds.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Started Apply the settings specified in cloud-config.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Starting Execute cloud user/final scripts...
+Nov  7 18:13:07 krasnov-teach cloud-init[1131]: Failed to restart ssh.service: Unit ssh.service not found.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Stopping OpenSSH server daemon...
+Nov  7 18:13:07 krasnov-teach systemd[1]: sshd.service: Succeeded.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Stopped OpenSSH server daemon.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Stopped target sshd-keygen.target.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Stopping sshd-keygen.target.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Reached target sshd-keygen.target.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Starting OpenSSH server daemon...
+Nov  7 18:13:07 krasnov-teach systemd[1]: Started OpenSSH server daemon.
+Nov  7 18:13:07 krasnov-teach cloud-init[1131]: Cloud-init v. 21.1-15.0.1.el8_6.3 running 'modules:final' at Thu, 07 Nov 2024 18:13:07 +0000. Up 13.72 seconds.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Reloading Network Manager.
+Nov  7 18:13:07 krasnov-teach NetworkManager[792]: <info>  [1731003187.9269] audit: op="reload" arg="0" pid=1145 uid=0 result="success"
+Nov  7 18:13:07 krasnov-teach NetworkManager[792]: <info>  [1731003187.9275] config: signal: SIGHUP (no changes from disk)
+Nov  7 18:13:07 krasnov-teach dbus-daemon[595]: [system] Activating via systemd: service name='org.freedesktop.resolve1' unit='dbus-org.freedesktop.resolve1.service' requested by ':1.9' (uid=0 pid=792 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  7 18:13:07 krasnov-teach dbus-daemon[595]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.resolve1.service': Unit dbus-org.freedesktop.resolve1.service not found.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Reloaded Network Manager.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Started Execute cloud user/final scripts.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Reached target Cloud-init target.
+Nov  7 18:13:07 krasnov-teach systemd[1]: Startup finished in 1.562s (kernel) + 1.575s (initrd) + 10.836s (userspace) = 13.974s.
+Nov  7 18:13:10 krasnov-teach chronyd[608]: Selected source 192.36.143.130 (2.pool.ntp.org)
+Nov  7 18:13:10 krasnov-teach chronyd[608]: System clock wrong by 1.240530 seconds
+Nov  7 18:13:10 krasnov-teach chronyd[608]: System clock was stepped by 1.240530 seconds
+Nov  7 18:13:10 krasnov-teach chronyd[608]: System clock TAI offset set to 37 seconds
+Nov  7 18:13:16 krasnov-teach systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Nov  7 18:13:35 krasnov-teach systemd[1]: systemd-hostnamed.service: Succeeded.
+Nov  7 18:15:30 krasnov-teach chronyd[608]: Source 94.198.132.184 replaced with 162.159.200.1 (2.pool.ntp.org)
+Nov  7 18:28:11 krasnov-teach systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  7 18:28:11 krasnov-teach systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Nov  7 18:28:11 krasnov-teach systemd[1]: Started Cleanup of Temporary Directories.
+Nov  7 18:46:56 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  7 18:46:57 krasnov-teach dnf[1315]: Failed determining last makecache time.
+Nov  7 18:46:57 krasnov-teach dnf[1315]: Oracle Linux 8 BaseOS Latest (x86_64)            38 kB/s | 4.3 kB     00:00
+Nov  7 18:47:15 krasnov-teach dnf[1315]: Oracle Linux 8 BaseOS Latest (x86_64)           4.6 MB/s |  82 MB     00:17
+Nov  7 18:47:30 krasnov-teach dnf[1315]: Oracle Linux 8 Application Stream (x86_64)       38 kB/s | 4.5 kB     00:00
+Nov  7 18:47:44 krasnov-teach dnf[1315]: Oracle Linux 8 Application Stream (x86_64)      4.6 MB/s |  64 MB     00:13
+Nov  7 18:47:58 krasnov-teach dnf[1315]: Latest Unbreakable Enterprise Kernel Release 6   30 kB/s | 3.5 kB     00:00
+Nov  7 18:48:21 krasnov-teach dnf[1315]: Latest Unbreakable Enterprise Kernel Release 6  4.6 MB/s | 102 MB     00:22
+Nov  7 18:48:43 krasnov-teach dnf[1315]: Last metadata expiration check: 0:00:15 ago on Thu 07 Nov 2024 06:48:20 PM UTC.
+Nov  7 18:48:48 krasnov-teach dnf[1315]: Metadata cache created.
+Nov  7 18:48:48 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  7 18:48:48 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  7 19:54:22 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  7 19:54:22 krasnov-teach dnf[2094]: Metadata cache refreshed recently.
+Nov  7 19:54:22 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  7 19:54:22 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  7 20:30:57 krasnov-teach kernel: hrtimer: interrupt took 1231042 ns
+Nov  7 21:25:59 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 194013ns
+Nov  7 21:25:59 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 375270ns, clock-skew test skipped!
+Nov  7 21:39:11 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  7 21:39:11 krasnov-teach dnf[2589]: Metadata cache refreshed recently.
+Nov  7 21:39:11 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  7 21:39:11 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  7 23:25:11 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  7 23:25:12 krasnov-teach dnf[3660]: Oracle Linux 8 BaseOS Latest (x86_64)            39 kB/s | 4.3 kB     00:00
+Nov  7 23:25:12 krasnov-teach dnf[3660]: Oracle Linux 8 Application Stream (x86_64)       43 kB/s | 4.5 kB     00:00
+Nov  7 23:25:12 krasnov-teach dnf[3660]: Latest Unbreakable Enterprise Kernel Release 6   33 kB/s | 3.5 kB     00:00
+Nov  7 23:25:15 krasnov-teach dnf[3660]: Metadata cache created.
+Nov  7 23:25:15 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  7 23:25:15 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 00:00:34 krasnov-teach systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  8 00:00:34 krasnov-teach systemd[1]: Started Update a database for mlocate.
+Nov  8 00:00:34 krasnov-teach systemd[1]: unbound-anchor.service: Succeeded.
+Nov  8 00:00:34 krasnov-teach systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  8 00:00:34 krasnov-teach systemd[1]: mlocate-updatedb.service: Succeeded.
+Nov  8 00:41:08 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 00:41:08 krasnov-teach dnf[4213]: Metadata cache refreshed recently.
+Nov  8 00:41:08 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 00:41:08 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 02:31:23 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 02:31:24 krasnov-teach dnf[5139]: Oracle Linux 8 BaseOS Latest (x86_64)            40 kB/s | 4.3 kB     00:00
+Nov  8 02:31:24 krasnov-teach dnf[5139]: Oracle Linux 8 Application Stream (x86_64)       43 kB/s | 4.5 kB     00:00
+Nov  8 02:31:25 krasnov-teach dnf[5139]: Latest Unbreakable Enterprise Kernel Release 6   33 kB/s | 3.5 kB     00:00
+Nov  8 02:31:27 krasnov-teach dnf[5139]: Metadata cache created.
+Nov  8 02:31:27 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 02:31:27 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 02:59:42 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 157892ns
+Nov  8 02:59:42 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 152647ns, clock-skew test skipped!
+Nov  8 03:17:48 krasnov-teach rsyslogd[1075]: imjournal: journal files changed, reloading...  [v8.2102.0-7.el8_6.1 try https://www.rsyslog.com/e/0 ]
+Nov  8 04:17:09 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 04:17:10 krasnov-teach dnf[6288]: Metadata cache refreshed recently.
+Nov  8 04:17:10 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 04:17:10 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 05:26:11 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 05:26:11 krasnov-teach dnf[7545]: Metadata cache refreshed recently.
+Nov  8 05:26:11 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 05:26:11 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 05:47:59 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 352025ns
+Nov  8 05:47:59 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 313997ns, clock-skew test skipped!
+Nov  8 06:22:31 krasnov-teach auditd[569]: Audit daemon rotating log files
+Nov  8 07:10:16 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 07:10:17 krasnov-teach dnf[8544]: Oracle Linux 8 BaseOS Latest (x86_64)            32 kB/s | 4.3 kB     00:00
+Nov  8 07:10:17 krasnov-teach dnf[8544]: Oracle Linux 8 Application Stream (x86_64)       42 kB/s | 4.5 kB     00:00
+Nov  8 07:10:18 krasnov-teach dnf[8544]: Latest Unbreakable Enterprise Kernel Release 6   28 kB/s | 3.5 kB     00:00
+Nov  8 07:10:21 krasnov-teach dnf[8544]: Metadata cache created.
+Nov  8 07:10:21 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 07:10:21 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 08:20:34 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 270009ns
+Nov  8 08:20:34 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 181019ns, clock-skew test skipped!
+Nov  8 09:06:25 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 09:06:25 krasnov-teach dnf[9788]: Metadata cache refreshed recently.
+Nov  8 09:06:25 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 09:06:25 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 10:40:25 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 10:40:25 krasnov-teach dnf[10741]: Oracle Linux 8 BaseOS Latest (x86_64)            37 kB/s | 4.3 kB     00:00
+Nov  8 10:40:26 krasnov-teach dnf[10741]: Oracle Linux 8 Application Stream (x86_64)       37 kB/s | 4.5 kB     00:00
+Nov  8 10:40:26 krasnov-teach dnf[10741]: Latest Unbreakable Enterprise Kernel Release 6   31 kB/s | 3.5 kB     00:00
+Nov  8 10:40:29 krasnov-teach dnf[10741]: Metadata cache created.
+Nov  8 10:40:29 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 10:40:29 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 11:12:00 krasnov-teach rsyslogd[1075]: imjournal: journal files changed, reloading...  [v8.2102.0-7.el8_6.1 try https://www.rsyslog.com/e/0 ]
+Nov  8 11:39:47 krasnov-teach systemd[1]: Created slice User Slice of UID 0.
+Nov  8 11:39:47 krasnov-teach systemd[1]: Starting User runtime directory /run/user/0...
+Nov  8 11:39:47 krasnov-teach systemd-logind[673]: New session 1 of user root.
+Nov  8 11:39:47 krasnov-teach systemd[1]: Started User runtime directory /run/user/0.
+Nov  8 11:39:47 krasnov-teach systemd[1]: Starting User Manager for UID 0...
+Nov  8 11:39:47 krasnov-teach systemd[11417]: Reached target Paths.
+Nov  8 11:39:47 krasnov-teach systemd[11417]: Starting D-Bus User Message Bus Socket.
+Nov  8 11:39:47 krasnov-teach systemd[11417]: Reached target Timers.
+Nov  8 11:39:47 krasnov-teach systemd[11417]: Listening on D-Bus User Message Bus Socket.
+Nov  8 11:39:47 krasnov-teach systemd[11417]: Reached target Sockets.
+Nov  8 11:39:47 krasnov-teach systemd[11417]: Reached target Basic System.
+Nov  8 11:39:47 krasnov-teach systemd[11417]: Reached target Default.
+Nov  8 11:39:47 krasnov-teach systemd[11417]: Startup finished in 58ms.
+Nov  8 11:39:47 krasnov-teach systemd[1]: Started User Manager for UID 0.
+Nov  8 11:39:47 krasnov-teach systemd[1]: Started Session 1 of user root.
+Nov  8 11:47:05 krasnov-teach systemd[1]: session-1.scope: Succeeded.
+Nov  8 11:47:05 krasnov-teach systemd-logind[673]: Session 1 logged out. Waiting for processes to exit.
+Nov  8 11:47:05 krasnov-teach systemd-logind[673]: Removed session 1.
+Nov  8 11:47:15 krasnov-teach systemd[1]: Stopping User Manager for UID 0...
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Stopped target Default.
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Stopped target Basic System.
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Stopped target Paths.
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Stopped target Timers.
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Stopped target Sockets.
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Closed D-Bus User Message Bus Socket.
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Reached target Shutdown.
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Started Exit the Session.
+Nov  8 11:47:15 krasnov-teach systemd[11417]: Reached target Exit the Session.
+Nov  8 11:47:15 krasnov-teach systemd[1]: user@0.service: Succeeded.
+Nov  8 11:47:15 krasnov-teach systemd[1]: Stopped User Manager for UID 0.
+Nov  8 11:47:15 krasnov-teach systemd[1]: Stopping User runtime directory /run/user/0...
+Nov  8 11:47:15 krasnov-teach systemd[1]: run-user-0.mount: Succeeded.
+Nov  8 11:47:15 krasnov-teach systemd[1]: user-runtime-dir@0.service: Succeeded.
+Nov  8 11:47:15 krasnov-teach systemd[1]: Stopped User runtime directory /run/user/0.
+Nov  8 11:47:15 krasnov-teach systemd[1]: Removed slice User Slice of UID 0.
+Nov  8 12:12:02 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 12:12:02 krasnov-teach dnf[11559]: Metadata cache refreshed recently.
+Nov  8 12:12:02 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 12:12:02 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 13:13:57 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 13:13:58 krasnov-teach dnf[12610]: Metadata cache refreshed recently.
+Nov  8 13:13:58 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 13:13:58 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 13:16:13 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 484347ns
+Nov  8 13:16:13 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 126540ns, clock-skew test skipped!
+Nov  8 13:35:32 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 346004ns
+Nov  8 13:35:32 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 169932ns, clock-skew test skipped!
+Nov  8 13:35:32 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 178158ns
+Nov  8 13:35:32 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 260949ns, clock-skew test skipped!
+Nov  8 14:46:49 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 14:46:50 krasnov-teach dnf[13530]: Oracle Linux 8 BaseOS Latest (x86_64)            38 kB/s | 4.3 kB     00:00
+Nov  8 14:46:50 krasnov-teach dnf[13530]: Oracle Linux 8 Application Stream (x86_64)       33 kB/s | 4.5 kB     00:00
+Nov  8 14:46:51 krasnov-teach dnf[13530]: Latest Unbreakable Enterprise Kernel Release 6   26 kB/s | 3.5 kB     00:00
+Nov  8 14:46:53 krasnov-teach dnf[13530]: Metadata cache created.
+Nov  8 14:46:53 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 14:46:53 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 15:45:38 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 835418ns
+Nov  8 15:45:38 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 303983ns, clock-skew test skipped!
+Nov  8 16:15:11 krasnov-teach systemd[1]: Starting dnf makecache...
+Nov  8 16:15:11 krasnov-teach dnf[14269]: Metadata cache refreshed recently.
+Nov  8 16:15:11 krasnov-teach systemd[1]: dnf-makecache.service: Succeeded.
+Nov  8 16:15:11 krasnov-teach systemd[1]: Started dnf makecache.
+Nov  8 16:23:13 krasnov-teach systemd[1]: Created slice User Slice of UID 0.
+Nov  8 16:23:13 krasnov-teach systemd[1]: Starting User runtime directory /run/user/0...
+Nov  8 16:23:13 krasnov-teach systemd-logind[673]: New session 3 of user root.
+Nov  8 16:23:13 krasnov-teach systemd[1]: Started User runtime directory /run/user/0.
+Nov  8 16:23:13 krasnov-teach systemd[1]: Starting User Manager for UID 0...
+Nov  8 16:23:13 krasnov-teach systemd[14319]: Reached target Paths.
+Nov  8 16:23:13 krasnov-teach systemd[14319]: Starting D-Bus User Message Bus Socket.
+Nov  8 16:23:13 krasnov-teach systemd[14319]: Reached target Timers.
+Nov  8 16:23:13 krasnov-teach systemd[14319]: Listening on D-Bus User Message Bus Socket.
+Nov  8 16:23:13 krasnov-teach systemd[14319]: Reached target Sockets.
+Nov  8 16:23:13 krasnov-teach systemd[14319]: Reached target Basic System.
+Nov  8 16:23:13 krasnov-teach systemd[14319]: Reached target Default.
+Nov  8 16:23:13 krasnov-teach systemd[14319]: Startup finished in 41ms.
+Nov  8 16:23:13 krasnov-teach systemd[1]: Started User Manager for UID 0.
+Nov  8 16:23:13 krasnov-teach systemd[1]: Started Session 3 of user root.
+Nov  8 16:28:46 krasnov-teach systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Nov  8 16:28:46 krasnov-teach systemd[1]: cgroup compatibility translation between legacy and unified hierarchy settings activated. See cgroup-compat debug messages for details.
+Nov  8 16:28:46 krasnov-teach systemd[1]: Starting man-db-cache-update.service...
+Nov  8 16:28:59 krasnov-teach systemd[1]: man-db-cache-update.service: Succeeded.
+Nov  8 16:28:59 krasnov-teach systemd[1]: Started man-db-cache-update.service.
+Nov  8 16:28:59 krasnov-teach systemd[1]: run-rc4b061cf66bb42d4a28e5f990e3cc165.service: Succeeded.
+Nov  8 16:39:59 krasnov-teach systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Nov  8 16:39:59 krasnov-teach systemd[1]: Starting man-db-cache-update.service...
+Nov  8 16:40:01 krasnov-teach systemd[1]: man-db-cache-update.service: Succeeded.
+Nov  8 16:40:01 krasnov-teach systemd[1]: Started man-db-cache-update.service.
+Nov  8 16:40:01 krasnov-teach systemd[1]: run-r2db9d39b21324cb9b1c85b20c1432c85.service: Succeeded.
+Nov  8 17:06:51 krasnov-teach kernel: clocksource: timekeeping watchdog on CPU0: hpet wd-wd read-back delay of 156104ns
+Nov  8 17:06:51 krasnov-teach kernel: clocksource: wd-tsc-wd read-back delay of 375926ns, clock-skew test skipped!
+Nov  8 17:29:16 krasnov-teach auditd[569]: Audit daemon rotating log files
